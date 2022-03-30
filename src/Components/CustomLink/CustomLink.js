@@ -10,10 +10,11 @@ function CustomLink({ children, to, ...props }) {
         <>
             <Link
                 style={{
-                    marginLeft: "3rem",
+                    marginLeft: "2rem",
+                    marginRight: "2rem",
                     fontSize: "1.5em",
                     textDecoration: match ? "underline" : "none",
-                    color: hover ? "red" : "white",
+                    color: hover ? "#F9652F" : "white",
                     transition: "0.5s"
                 }}
                 to={to}
