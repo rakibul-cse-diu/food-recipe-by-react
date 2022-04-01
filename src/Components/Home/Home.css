@@ -1,0 +1,11 @@
+.pagination button:hover {
+    background-color: #F9652F;
+    transition: .5s;
+}
+
+.pagination button:focus {
+    font-size: 1.2em;
+    font-weight: 500;
+    background: rgb(203, 213, 225);
+    outline: 2px solid #f9652fd6;
+}
