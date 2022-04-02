@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import { addToLocalStorage } from '../../Utilities/storeLocalStore';
 
 const Foods = (props) => {
     console.log(props.food)
@@ -18,7 +19,7 @@ const Foods = (props) => {
             </p>
 
             <div className='flex mt-3'>
-                <button className='px-2 py-1 text-sm font-semibold border-2 border-slate-800 rounded-md duration-200 hover:text-orange-500'><FontAwesomeIcon icon={faBookmark} /> Save to collections</button>
+                <button className='px-2 py-1 text-sm font-semibold border-2 border-slate-800 rounded-md duration-200 hover:text-orange-500' onClick={() => addToLocalStorage(idMeal)}><FontAwesomeIcon icon={faBookmark} /> Save to collections</button>
             </div>
 
             <div className='flex py-4'>
