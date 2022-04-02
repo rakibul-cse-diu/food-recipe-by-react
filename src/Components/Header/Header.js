@@ -11,7 +11,7 @@ const Header = () => {
             <Link to="/">
                 <div className="logo-area flex flex-col md:flex-row md:items-end sm:items-center">
                     <img src={logo} alt="logo" width={40} className='' />
-                    <h3 className='pl-1 text-orange-500 text-sm md:text-2xl font-semibold'>Food Recipe</h3>
+                    <h3 className='pl-1 text-orange-300 text-sm md:text-2xl font-semibold'>Food Recipe</h3>
                 </div>
             </Link>
             <div className='text-white flex md:mr-8'>

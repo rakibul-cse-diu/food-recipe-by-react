@@ -5,7 +5,7 @@
 }
 
 .pagination button:hover {
-    background-color: #F9652F;
+    background-color: rgb(253 186 116);
 }
 
 .pagination button:focus {
