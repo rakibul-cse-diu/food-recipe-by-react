@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 
 const useFoods = (latter) => {
-    // const latters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "r", "s", "t", "v", "w", "y"];
     const [foods, setFoods] = useState([]);
 
     useEffect(() => {
